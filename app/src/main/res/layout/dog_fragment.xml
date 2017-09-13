@@ -1,0 +1,45 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.honeacademy.petfinder.model.Pet" />
+
+        <import type="com.honeacademy.petfinder.util.Resource" />
+
+        <variable
+            name="pet"
+            type="com.honeacademy.petfinder.model.Pet" />
+
+        <variable
+            name="petResource"
+            type="Resource" />
+
+        <variable
+            name="retryCallback"
+            type="com.honeacademy.petfinder.util.RetryCallback" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/pets_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            app:layoutManager="LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:listitem="@layout/pet_item" />
+
+        <include layout="@layout/progress_bar"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>

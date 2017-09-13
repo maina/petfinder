@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
+    <header>
+        <version>0.1</version>
+        <timestamp>2017-08-30T07:23:05Z</timestamp>
+        <status>
+            <code>100</code>
+            <message />
+        </status>
+    </header>
+    <lastOffset>25</lastOffset>
+    <pets>
+        <pet>
+            <id>34155354</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Lady</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Chihuahua</breed>
+                <breed>Dachshund</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>S</size>
+            <options>
+                <option>hasShots</option>
+                <option>noDogs</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[Lady is such a sweet girl. She has been waiting over a year for her forever home. She is 4 years old crate trained and house broken. We do not know how she gets along with cats. She is already spayed and is up to date on her shots. Vet and personal references are required. The adoption fee is $400 to cover the spay and vaccines.
+If interested, please call Val at (631)-599-4082]]>
+            </description>
+            <lastUpdate>2016-12-04T00:15:56Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34155354/1/?bust=1451855499&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34155354/1/?bust=1451855499&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34155354/1/?bust=1451855499&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34155354/1/?bust=1451855499&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34155354/1/?bust=1451855499&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34155354/2/?bust=1454242098&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34155354/2/?bust=1454242098&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34155354/2/?bust=1454242098&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34155354/2/?bust=1454242098&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34155354/2/?bust=1454242098&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>36560281</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Athena</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Labrador Retriever</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Athena is a year old lab mix, she is up to date on her shots and already spayed. Athena is a fun loving high energy pup! she would do best in an active family or with an active person/couple who could take her on long walks and adventures :)
+
+
+Vet and personal references are required for the application process. The Adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631) 599-4082]]>
+            </description>
+            <lastUpdate>2017-05-13T19:58:02Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/36560281/1/?bust=1483634414&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/36560281/1/?bust=1483634414&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/36560281/1/?bust=1483634414&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/36560281/1/?bust=1483634414&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/36560281/1/?bust=1483634414&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/36560281/2/?bust=1483634414&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/36560281/2/?bust=1483634414&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/36560281/2/?bust=1483634414&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/36560281/2/?bust=1483634414&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/36560281/2/?bust=1483634414&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>37727848</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Angel</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Beagle</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>noKids</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[Hi! How are you? My name is Angel and I'm a sweet one year old beagle mix who is looking for her forever home! From the moment people meet me, they find out very fast that I am a friendly, loving, and fun little girl who loves to play, relax, and be the center of attention. I have a beautiful tri-colored coat, which people like to tell me is very pretty. I like to get compliments, because personally I think I'm worth it :).
+
+A little more about me: I am spayed, up to date on my shots, and house trained. In a forever home, I prefer a space where I can run around and exercise, as I could benefit from dropping a few pounds (summer is coming up!) I also would prefer a home without smaller children, which I would describe as smaller than me. Kids over 12 years old probably would be a good fit for me, as they can play with me, and can handle my very positive and loving body language. 
+
+I am a loving girl who is looking for her forever home. Do you think you can help me?
+
+Vet and personal references required. the adoption fee is $400 to cover the medical expenses, such as shots, spay/neuter, and any thing else that may come up.
+
+If interested, please call val at (631)-599-4082]]>
+            </description>
+            <lastUpdate>2017-03-28T18:17:07Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/37727848/1/?bust=1490725024&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/37727848/1/?bust=1490725024&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/37727848/1/?bust=1490725024&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/37727848/1/?bust=1490725024&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/37727848/1/?bust=1490725024&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/37727848/2/?bust=1490725024&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/37727848/2/?bust=1490725024&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/37727848/2/?bust=1490725024&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/37727848/2/?bust=1490725024&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/37727848/2/?bust=1490725024&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/37727848/3/?bust=1490725025&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/37727848/3/?bust=1490725025&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/37727848/3/?bust=1490725025&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/37727848/3/?bust=1490725025&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/37727848/3/?bust=1490725025&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>38899345</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Rainey</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Chihuahua</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>S</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[Hi! My name is Rainey and im a year old chi mix up for adoption. i am housetrained, dog friendly and i love people! i would make a perfect addition to any home, won't you consider making me part of your family? :)                                                  Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-07-27T04:52:40Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/38899345/1/?bust=1501131017&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/38899345/1/?bust=1501131017&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/38899345/1/?bust=1501131017&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/38899345/1/?bust=1501131017&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/38899345/1/?bust=1501131017&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>38988148</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Herndon</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Labrador Retriever</breed>
+                <breed>Mixed Breed</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>M</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Howdy Y'all! My name is Herndon. I know it may sound like a silly name, but I was named after country singer Ty Herndon. I come from a kill shelter in Oklahoma, where country is quite popular and my name isn't as unusual. I'm not attached to my name though and i'll love whatever you call me as long as you love me. Im an 8 month old lab mix. I'm friendly but a little shy! I was rescued with my sister April, who is also looking for a home (people say we look like twins, what is a twin?) I love people and other dogs - although i'm a little nervous, I am working on that. I like playing in the yard and being silly, and I hope to one day have a yard of my own. Will you bring me home and let me play in YOUR yard? pleaseeeeeee :). 
+
+If interested, please call Val at (631)-599-4082.Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-04T20:15:32Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/38988148/1/?bust=1501877682&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/38988148/1/?bust=1501877682&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/38988148/1/?bust=1501877682&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/38988148/1/?bust=1501877682&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/38988148/1/?bust=1501877682&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>38988182</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>April</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Labrador Retriever</breed>
+                <breed>Mixed Breed</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[HI!! My name is April. I'm a sweet, caring and fun loving gal, who's an 8 month old Lab Mix looking for my forever home. I was rescued with my  brother Herndon, who is also looking for a home (I think he has a strange name, but i still love him!) I love people and other dogs - I am a free-spirited and courageous girl who loves to play. I like playing in the yard and being silly, and I hope to one day have a yard of my own. Will you bring me home and let me play in YOUR yard? pleaseeeeeee :). I'm up to date on all my shots, neutered, and ready to be the newest member of your family today!
+
+If interested, please call Val at (631)-599-4082.Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-05T03:03:07Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/38988182/1/?bust=1501877819&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/38988182/1/?bust=1501877819&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/38988182/1/?bust=1501877819&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/38988182/1/?bust=1501877819&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/38988182/1/?bust=1501877819&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>39207809</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Caitlin</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Retriever</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Hi There! My name is Caitlin and i'm a 3 month old retriever mix. I'm up to date on my shots and already spayed. I like other dogs and i'm very friendly.  I've never met a cat but i think i'd like one :) please consider making me your newest family member                                                   Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-25T03:38:35Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/39207809/1/?bust=1503631831&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/39207809/1/?bust=1503631831&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/39207809/1/?bust=1503631831&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/39207809/1/?bust=1503631831&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/39207809/1/?bust=1503631831&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/39207809/2/?bust=1503631833&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/39207809/2/?bust=1503631833&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/39207809/2/?bust=1503631833&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/39207809/2/?bust=1503631833&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/39207809/2/?bust=1503631833&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/39207809/3/?bust=1503631834&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/39207809/3/?bust=1503631834&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/39207809/3/?bust=1503631834&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/39207809/3/?bust=1503631834&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/39207809/3/?bust=1503631834&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="4" size="pnt">http://photos.petfinder.com/photos/pets/39207809/4/?bust=1503631836&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="4" size="fpm">http://photos.petfinder.com/photos/pets/39207809/4/?bust=1503631836&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="4" size="x">http://photos.petfinder.com/photos/pets/39207809/4/?bust=1503631836&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="4" size="pn">http://photos.petfinder.com/photos/pets/39207809/4/?bust=1503631836&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="4" size="t">http://photos.petfinder.com/photos/pets/39207809/4/?bust=1503631836&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>39226807</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Lainey</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Catahoula Leopard Dog</breed>
+                <breed>Australian Shepherd</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Hi! My name is Lainey and I'm a 3.5 month old Aussie Shepherd/Catahoula mix who is looking for my forever home! I'm a sweet gal who loves to play, and although I can be a little mischievous at times, I mean the best I can. I'm learning! Remember, I'm just a puppy.
+
+I'm a sweet little darling and I want to be a part of a forever home who can love me for who I am, play, and be the best dog I can be! I'm good with other dogs, spayed, and up to date on all my shots, so what are you waiting for? adopt me today!!
+
+Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-26T21:25:54Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/39226807/1/?bust=1503782586&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/39226807/1/?bust=1503782586&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/39226807/1/?bust=1503782586&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/39226807/1/?bust=1503782586&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/39226807/1/?bust=1503782586&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/39226807/2/?bust=1503782589&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/39226807/2/?bust=1503782589&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/39226807/2/?bust=1503782589&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/39226807/2/?bust=1503782589&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/39226807/2/?bust=1503782589&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/39226807/3/?bust=1503782590&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/39226807/3/?bust=1503782590&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/39226807/3/?bust=1503782590&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/39226807/3/?bust=1503782590&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/39226807/3/?bust=1503782590&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>39226757</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Lana</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Catahoula Leopard Dog</breed>
+                <breed>Australian Shepherd</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Hello, I go by the name of Lana and I'm a 3.5 month old Aussie Shepherd/Catahoula mix.  I am a sweet girl who is interested in the world around me. I love people and playing!
+
+I'm looking for my forever home, a home where I can sleep, play, be loved, and be the amazing dog I can be. I'm spayed, up to date on all my shots, and good with other dogs.
+
+Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-26T21:20:53Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/39226757/1/?bust=1503782249&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/39226757/1/?bust=1503782249&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/39226757/1/?bust=1503782249&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/39226757/1/?bust=1503782249&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/39226757/1/?bust=1503782249&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/39226757/2/?bust=1503782252&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/39226757/2/?bust=1503782252&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/39226757/2/?bust=1503782252&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/39226757/2/?bust=1503782252&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/39226757/2/?bust=1503782252&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/39226757/3/?bust=1503782254&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/39226757/3/?bust=1503782254&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/39226757/3/?bust=1503782254&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/39226757/3/?bust=1503782254&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/39226757/3/?bust=1503782254&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>36473058</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Flopsy</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Shar Pei</breed>
+                <breed>Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>L</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Hi, my name is Flopsy, i am a year and a half old. i'm a Shar Pei mix! The people who know me think I am a loving, happy-go-lucky, and warm presence who can light up any room I come in. I am attentive and affectionate, and I am open to a day of playing, but also will never turn down a nap or a cuddle date! I am looking for my forever home, and I think I can be the perfect dog for whatever family decides to add me to it :)
+
+Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-17T18:23:36Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/36473058/1/?bust=1476406308&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/36473058/1/?bust=1476406308&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/36473058/1/?bust=1476406308&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/36473058/1/?bust=1476406308&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/36473058/1/?bust=1476406308&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/36473058/2/?bust=1484509212&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/36473058/2/?bust=1484509212&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/36473058/2/?bust=1484509212&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/36473058/2/?bust=1484509212&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/36473058/2/?bust=1484509212&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/36473058/3/?bust=1477093458&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/36473058/3/?bust=1477093458&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/36473058/3/?bust=1477093458&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/36473058/3/?bust=1477093458&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/36473058/3/?bust=1477093458&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="4" size="pnt">http://photos.petfinder.com/photos/pets/36473058/4/?bust=1502994215&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="4" size="fpm">http://photos.petfinder.com/photos/pets/36473058/4/?bust=1502994215&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="4" size="x">http://photos.petfinder.com/photos/pets/36473058/4/?bust=1502994215&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="4" size="pn">http://photos.petfinder.com/photos/pets/36473058/4/?bust=1502994215&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="4" size="t">http://photos.petfinder.com/photos/pets/36473058/4/?bust=1502994215&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="5" size="pnt">http://photos.petfinder.com/photos/pets/36473058/5/?bust=1502994215&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="5" size="fpm">http://photos.petfinder.com/photos/pets/36473058/5/?bust=1502994215&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="5" size="x">http://photos.petfinder.com/photos/pets/36473058/5/?bust=1502994215&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="5" size="pn">http://photos.petfinder.com/photos/pets/36473058/5/?bust=1502994215&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="5" size="t">http://photos.petfinder.com/photos/pets/36473058/5/?bust=1502994215&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>36473309</id>
+            <shelterId>NY1123</shelterId>
+            <shelterPetId />
+            <name>Zoey</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Australian Cattle Dog / Blue Heeler</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Zoey is an energetic girl who loves to play! She's a little over a year old. She loves to feel the grass between her toes and is truly happiest outside. She loves people, and is always willing to give kisses whenever she is able too. 
+
+Vet and personal references are required for the application process. The adoption fee is $400 to cover spay/neuter and medical expenses such as age appropriate shots.
+
+If interested, please call Val at (631)-599-4082.]]>
+            </description>
+            <lastUpdate>2017-08-17T18:28:29Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/36473309/1/?bust=1488130171&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/36473309/1/?bust=1488130171&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/36473309/1/?bust=1488130171&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/36473309/1/?bust=1488130171&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/36473309/1/?bust=1488130171&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/36473309/2/?bust=1477332477&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/36473309/2/?bust=1477332477&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/36473309/2/?bust=1477332477&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/36473309/2/?bust=1477332477&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/36473309/2/?bust=1477332477&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/36473309/3/?bust=1488130171&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/36473309/3/?bust=1488130171&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/36473309/3/?bust=1488130171&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/36473309/3/?bust=1488130171&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/36473309/3/?bust=1488130171&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Farmingville</city>
+                <state>NY</state>
+                <zip>11738</zip>
+                <phone>(516) 356-0558</phone>
+                <fax />
+                <email>mpekar1@optonline.net</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>36079722</id>
+            <shelterId>NY1275</shelterId>
+            <shelterPetId />
+            <name>Chevis</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>German Shepherd Dog</breed>
+            </breeds>
+            <mix>no</mix>
+            <age>Adult</age>
+            <sex>M</sex>
+            <size>L</size>
+            <options>
+                <option>hasShots</option>
+                <option>noDogs</option>
+                <option>altered</option>
+                <option>noCats</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[We are pleased to say that Chevis has officially joined A Home Fur Now Rescue! We just got to love him up and he is an amazing dog who will make the best loyal FUREVER family member!
+
+Chevis is fully trained - 6 years old and great with kids.  He takes treats gently and loves to play ball in the yard.  He must be the only dog and had never been around cats.
+
+If you are interested in this delicious boy please email adoption@ahomefurnowrescue.org for an application 
+Located LI NY]]>
+            </description>
+            <lastUpdate>2016-09-23T01:40:27Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/36079722/1/?bust=1472411371&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/36079722/1/?bust=1472411371&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/36079722/1/?bust=1472411371&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/36079722/1/?bust=1472411371&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/36079722/1/?bust=1472411371&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/36079722/2/?bust=1474570423&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/36079722/2/?bust=1474570423&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/36079722/2/?bust=1474570423&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/36079722/2/?bust=1474570423&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/36079722/2/?bust=1474570423&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/36079722/3/?bust=1474594827&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/36079722/3/?bust=1474594827&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/36079722/3/?bust=1474594827&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/36079722/3/?bust=1474594827&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/36079722/3/?bust=1474594827&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Holbrook</city>
+                <state>NY</state>
+                <zip>11741</zip>
+                <phone />
+                <fax />
+                <email>adoptions@ahomefurnowrescue.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>37553761</id>
+            <shelterId>NY1275</shelterId>
+            <shelterPetId />
+            <name>Kobie</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Pit Bull Terrier</breed>
+                <breed>Labrador Retriever</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>M</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[LEFT OUTDOORS 24-7 IN ALL ELEMENTS WITH LITTLE TO NO FOOD, NO SHELTER, AND NO HUMAN INTERACTION!
+
+
+His guardian was sentenced to jail for 3+ years and Kobies fate was left In the hands of animal rescuers who knew Kobie would be sold to dog fighters! With no time on our side, I took Kobie in order to give him a chance. With four dogs in the home(2 are dog aggressive) Kobie is being crated, all alone. He needs out! And he needs out asap! 
+
+Moving is near and Kobies fate is unknown at this time! THIS IS ABSOLUTELY URGENT!
+
+Kobie is a ball of energy~ lets face it, wouldnt you be too?! He has a tremendous amount of potential with the right owner and home.
+A family who can show him the ropes and work to make him thee absolutely best he can be!
+
+Kobie has been neutered and is up to date with his vaccinations!
+~ Approx 18-24 Months young
+~ Crate trained
+~ House Trained
+~ Knows Sit, Stay, Come
+~Cat tested and showed no aggression. 
+~ Does well with most dogs. Will do best with a submissive dog who he can learn from
+*All a learning process for this handsome Staffie mix!
+
+Kobie ABSOLUTELY LOVES PEOPLE!! 
+
+He is located on Suffolk County, LI, NY and can be adopted throughout the tri-state area.
+
+Home visits and meet and greets required*
+
+If you are interested in meeting Kobie, please call 631-394-1107 or email Rescuemom1022@gmail.com
+
+Lets get Kobie to safety!!]]>
+            </description>
+            <lastUpdate>2017-03-04T03:09:26Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/37553761/1/?bust=1488596964&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/37553761/1/?bust=1488596964&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/37553761/1/?bust=1488596964&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/37553761/1/?bust=1488596964&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/37553761/1/?bust=1488596964&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/37553761/2/?bust=1488596965&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/37553761/2/?bust=1488596965&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/37553761/2/?bust=1488596965&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/37553761/2/?bust=1488596965&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/37553761/2/?bust=1488596965&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/37553761/3/?bust=1488596965&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/37553761/3/?bust=1488596965&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/37553761/3/?bust=1488596965&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/37553761/3/?bust=1488596965&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/37553761/3/?bust=1488596965&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Holbrook</city>
+                <state>NY</state>
+                <zip>11741</zip>
+                <phone />
+                <fax />
+                <email>adoptions@ahomefurnowrescue.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>37645713</id>
+            <shelterId>NY1275</shelterId>
+            <shelterPetId />
+            <name>Noel</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Labrador Retriever</breed>
+                <breed>Pit Bull Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>L</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+            </options>
+            <description>
+                <![CDATA[Noel is a sweet girl with lots of energy!  She would make a great companion to hike or jog with. Then make a snuggly couch potato at night.   Please email adoptions@ahomefurnowrescue.org for and application]]>
+            </description>
+            <lastUpdate>2017-03-16T21:32:10Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/37645713/1/?bust=1489699930&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/37645713/1/?bust=1489699930&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/37645713/1/?bust=1489699930&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/37645713/1/?bust=1489699930&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/37645713/1/?bust=1489699930&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Holbrook</city>
+                <state>NY</state>
+                <zip>11741</zip>
+                <phone />
+                <fax />
+                <email>adoptions@ahomefurnowrescue.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>38150167</id>
+            <shelterId>NY1275</shelterId>
+            <shelterPetId />
+            <name>Chance</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>German Shepherd Dog</breed>
+            </breeds>
+            <mix>no</mix>
+            <age>Young</age>
+            <sex>M</sex>
+            <size>L</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[Please welcome Chase to A Home Fur Now Rescue!
+
+He is 1 1/2 years old & friendly with All!
+
+He loves to play and enjoys going on walks.  
+
+Located Long Island NY 
+
+Please email adoptions@ahomefurnowrescue.org for an application 
+
+If you already have one in our system just let us know!]]>
+            </description>
+            <lastUpdate>2017-05-24T22:06:21Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/38150167/1/?bust=1495663580&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/38150167/1/?bust=1495663580&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/38150167/1/?bust=1495663580&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/38150167/1/?bust=1495663580&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/38150167/1/?bust=1495663580&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Holbrook</city>
+                <state>NY</state>
+                <zip>11741</zip>
+                <phone />
+                <fax />
+                <email>adoptions@ahomefurnowrescue.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>38750085</id>
+            <shelterId>NY1275</shelterId>
+            <shelterPetId />
+            <name>Finn</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Labrador Retriever</breed>
+                <breed>Boxer</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Baby</age>
+            <sex>M</sex>
+            <size>L</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[Introducing Finn! Finn is a 10 month old lab mix. He is being rehomed since he is not getting along with the other dog in the home. 
+
+He is neutered utd on shots, good with kids and most dogs. He is crate trained and almost fully housebroken. 
+
+If interested email adoptions@ahomefurnowrescue.org
+
+He is located in Suffolk County Long Island.]]>
+            </description>
+            <lastUpdate>2017-07-13T16:11:33Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/38750085/1/?bust=1499962150&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/38750085/1/?bust=1499962150&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/38750085/1/?bust=1499962150&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/38750085/1/?bust=1499962150&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/38750085/1/?bust=1499962150&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/38750085/2/?bust=1499962159&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/38750085/2/?bust=1499962159&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/38750085/2/?bust=1499962159&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/38750085/2/?bust=1499962159&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/38750085/2/?bust=1499962159&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/38750085/3/?bust=1499962164&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/38750085/3/?bust=1499962164&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/38750085/3/?bust=1499962164&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/38750085/3/?bust=1499962164&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/38750085/3/?bust=1499962164&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Holbrook</city>
+                <state>NY</state>
+                <zip>11741</zip>
+                <phone />
+                <fax />
+                <email>adoptions@ahomefurnowrescue.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>39088292</id>
+            <shelterId>NY1275</shelterId>
+            <shelterPetId />
+            <name>Paco</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Chihuahua</breed>
+                <breed>Corgi</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>M</sex>
+            <size>S</size>
+            <options></options>
+            <description>
+                <![CDATA[]]>
+            </description>
+            <lastUpdate>2017-08-15T21:25:44Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/39088292/1/?bust=1502832319&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/39088292/1/?bust=1502832319&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/39088292/1/?bust=1502832319&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/39088292/1/?bust=1502832319&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/39088292/1/?bust=1502832319&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1 />
+                <address2 />
+                <city>Holbrook</city>
+                <state>NY</state>
+                <zip>11741</zip>
+                <phone />
+                <fax />
+                <email>adoptions@ahomefurnowrescue.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>30446070</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Penny</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Pit Bull Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options></options>
+            <description>
+                <![CDATA[Penny is an amazing little girl for all that she has been through. She came to us when her owner called us for help. She couldn't care for this girl anymore. We found her, emaciated and scared locked in a closet! We immediately took her and put her into foster. She is thriving!! She is great with other mpst other dogs, cats, kids amd crate trained. She has an outgoing and social personality,  absolutely loves to play ball, snuggle in your lap and give kisses too.]]>
+            </description>
+            <lastUpdate>2017-06-20T15:21:15Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/30446070/1/?bust=1429570736&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/30446070/1/?bust=1429570736&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/30446070/1/?bust=1429570736&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/30446070/1/?bust=1429570736&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/30446070/1/?bust=1429570736&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/30446070/2/?bust=1429570737&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/30446070/2/?bust=1429570737&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/30446070/2/?bust=1429570737&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/30446070/2/?bust=1429570737&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/30446070/2/?bust=1429570737&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/30446070/3/?bust=1444883462&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/30446070/3/?bust=1444883462&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/30446070/3/?bust=1444883462&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/30446070/3/?bust=1444883462&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/30446070/3/?bust=1444883462&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>33880846</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Diamond</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Pit Bull Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options></options>
+            <description>
+                <![CDATA[Diamond is a 2 year old, female, Pittie mix that was rescued from a local town shelter. Her owner was going into the hospital and couldn't care for her, or her puppy any longer - she was heartbroken but had no choice. Diamond is just that, a true diamond. She is a leaner, sweet and gentle. She is good with some dogs if introduced slowly. Just look at those ears!!]]>
+            </description>
+            <lastUpdate>2017-02-19T13:05:10Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33880846/1/?bust=1448496526&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33880846/1/?bust=1448496526&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33880846/1/?bust=1448496526&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33880846/1/?bust=1448496526&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33880846/1/?bust=1448496526&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33880846/2/?bust=1448496526&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33880846/2/?bust=1448496526&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33880846/2/?bust=1448496526&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33880846/2/?bust=1448496526&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33880846/2/?bust=1448496526&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/33880846/3/?bust=1487509510&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/33880846/3/?bust=1487509510&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/33880846/3/?bust=1487509510&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/33880846/3/?bust=1487509510&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/33880846/3/?bust=1487509510&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>34096322</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Shadow</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Border Collie</breed>
+                <breed>Belgian Shepherd / Sheepdog</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>M</sex>
+            <size>M</size>
+            <options></options>
+            <description>
+                <![CDATA[Shadow is a 12 year old, male, neutered Border Collie/Belgian Sheepdog mix, about 45 lbs. He was dumped in boarding after his owner was "tired" of him. He is looking for a forever home - he is great with other dogs, cats amd kids. If you are interested in meeting Shadow, pls email support@almosthomeli.org]]>
+            </description>
+            <lastUpdate>2015-12-24T03:08:21Z</lastUpdate>
+            <status>A</status>
+            <media></media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>34582381</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Maddie</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Pit Bull Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[Maddie is just your average, everyday black, female, spayed Pittie but her personality shines through her  looks. She has a beautiful shiny black coat with a ray of sunshine shining through. She is good with most other dogs, crate trained, housebroken and well mannered.]]>
+            </description>
+            <lastUpdate>2017-03-02T03:10:07Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34582381/1/?bust=1457126399&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34582381/1/?bust=1457126399&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34582381/1/?bust=1457126399&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34582381/1/?bust=1457126399&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34582381/1/?bust=1457126399&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34582381/2/?bust=1457126399&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34582381/2/?bust=1457126399&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34582381/2/?bust=1457126399&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34582381/2/?bust=1457126399&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34582381/2/?bust=1457126399&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>34818878</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Rosie</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Pit Bull Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options></options>
+            <description>
+                <![CDATA[Rosie is a 7 year old, female, spayed pittie mix. She was one of our puppies adopted and ultimately ended up in a shelter in NJ. Thanks to the microchip, we recieved a phone call from and were able to get her back to us. She is an amazing, calm, well mannered girl that is good with kids 15 and up and pefees to be.only.pet. Housebroken, crate trained and great in the car!]]>
+            </description>
+            <lastUpdate>2017-05-18T19:27:31Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34818878/1/?bust=1462065963&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34818878/1/?bust=1462065963&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34818878/1/?bust=1462065963&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34818878/1/?bust=1462065963&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34818878/1/?bust=1462065963&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34818878/2/?bust=1495135650&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34818878/2/?bust=1495135650&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34818878/2/?bust=1495135650&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34818878/2/?bust=1495135650&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34818878/2/?bust=1495135650&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>35144352</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Loki and Red</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>American Staffordshire Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>M</sex>
+            <size>L</size>
+            <options>
+                <option>hasShots</option>
+                <option>altered</option>
+                <option>housetrained</option>
+            </options>
+            <description>
+                <![CDATA[THIS IS A COURTESY POSTING. IF YOU ARE INTERESTED IN MEETING THESE GUYS , CONTACT Lydia at molina15151@gmail.com
+
+Loki and Red are both 6 yrs old, neutered male, American Staffies. They are being rehomed by their owner because of personal situation. They are both good with dogs and kids, well mannered, housebroken and bonded. Great boys!!]]>
+            </description>
+            <lastUpdate>2016-05-18T06:46:32Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/35144352/1/?bust=1463553981&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/35144352/1/?bust=1463553981&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/35144352/1/?bust=1463553981&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/35144352/1/?bust=1463553981&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/35144352/1/?bust=1463553981&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/35144352/2/?bust=1463553982&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/35144352/2/?bust=1463553982&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/35144352/2/?bust=1463553982&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/35144352/2/?bust=1463553982&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/35144352/2/?bust=1463553982&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/35144352/3/?bust=1463553982&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/35144352/3/?bust=1463553982&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/35144352/3/?bust=1463553982&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/35144352/3/?bust=1463553982&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/35144352/3/?bust=1463553982&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>35544005</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Kobie</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Pit Bull Terrier</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Young</age>
+            <sex>M</sex>
+            <size>M</size>
+            <options></options>
+            <description>
+                <![CDATA[KOBIE IS A COURTESY POSTING. IF YOU ARE INTERESTED IN MEETING HIM, PLS CONTACT PERSON LISTED BELOW/.
+
+"Dear animal lovers and potential adopters, I would like to share with you the experience I received from Kobie. As I waited excitedly for Kobie's arrival yesterday, all I could think of is would Kobie be comfortable with me and my surroundings. As I opened my storm door, Kobie walked in with a smile on his face and a curious nature. He immediately trusted me. I was able to pet, rub and kiss this phenomenal dog. Maria and Kobie spent a few hours with me and he felt right at home. Considering what Kobie has been through in his short life, he is happy, joyous and playful. I decided I would be privileged to make this sweet boy a part of the family. I felt great about my decision and couldn't stop thinking about when Kobie would be returning to me forever. The next morning I awoke with hives! Unfortunately I am allergic to Kobie. I agonized over having to call Maria and let her know that I won't be able to adopt this wonderful dog. I can only pray that someone who is reading this post will be willing to meet Kobie and experience the love he exudes. I promise you that he is a special boy. Please pick up the phone and give Maria a call. It could change Kobie's precarious future and definitely enhance yours.
+
+14 months young and has known nothing But living outdoors, an occasional meal, no human interaction, freezing temps with no shelter!
+
+His guardian was sentenced to jail for 3+ years and Kobies fate was left In the hands of animal rescuers who knew Kobie would be sold to dog fighters! With no time on our side, I took Kobie in order to give him a chance. With four dogs in the home(2 are dog aggressive) Kobie is being crated, all alone. He needs out! And he needs out asap! 
+
+Moving is near and Kobies fate is unknown at this time! THIS IS ABSOLUTELY URGENT!
+
+Kobie is a ball of energy~ lets face it, wouldnt you be too?! He has a tremendous amount of potential with the right owner and home.
+A family who can show him the ropes and work to make him thee absolutely best he can be!
+
+Kobie has been neutered and is up to date with his vaccinations!
+~Cat tested and showed no aggression. 
+~ Does well with most dogs. Will do best with a submissive dog who he can learn from
+*All a learning process for this handsome Staffie mix!
+
+Kobie ABSOLUTELY LOVES PEOPLE!! 
+
+He is located on Suffolk County, LI, NY and can be adopted throughout the tri-state area.
+
+Home visits and meet and greets required*
+
+If you are interested in meeting Kobie, please call 631-394-1107 or email Rescuemom1022@gmail.com]]>
+            </description>
+            <lastUpdate>2016-07-01T12:31:01Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/35544005/1/?bust=1467376259&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/35544005/1/?bust=1467376259&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/35544005/1/?bust=1467376259&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/35544005/1/?bust=1467376259&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/35544005/1/?bust=1467376259&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/35544005/2/?bust=1467376260&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/35544005/2/?bust=1467376260&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/35544005/2/?bust=1467376260&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/35544005/2/?bust=1467376260&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/35544005/2/?bust=1467376260&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/35544005/3/?bust=1467376260&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/35544005/3/?bust=1467376260&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/35544005/3/?bust=1467376260&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/35544005/3/?bust=1467376260&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/35544005/3/?bust=1467376260&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+        <pet>
+            <id>35827213</id>
+            <shelterId>NY739</shelterId>
+            <shelterPetId />
+            <name>Gabriella</name>
+            <animal>Dog</animal>
+            <breeds>
+                <breed>Ibizan Hound</breed>
+            </breeds>
+            <mix>yes</mix>
+            <age>Adult</age>
+            <sex>F</sex>
+            <size>M</size>
+            <options></options>
+            <description>
+                <![CDATA[Gabreilla is a very amazing, lucky little girl. She was rescued by the Soi Dog Foundation off the streets of Thailand where she lived her entire life. Street dogs are treated horrendously there and off picked up and sold to dog meat trade in other Asian countries. She is a four year old ,female, spayed petite little girl that bears the physical scars of living on the streets of Thailand. Her personality is amazingly soft and gentle. She is good with other dogs and likes the water.]]>
+            </description>
+            <lastUpdate>2017-01-21T19:35:52Z</lastUpdate>
+            <status>A</status>
+            <media>
+                <photos>
+                    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/35827213/1/?bust=1469995822&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/35827213/1/?bust=1469995822&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/35827213/1/?bust=1469995822&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/35827213/1/?bust=1469995822&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/35827213/1/?bust=1469995822&amp;width=50&amp;-t.jpg</photo>
+                    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/35827213/2/?bust=1481468166&amp;width=60&amp;-pnt.jpg</photo>
+                    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/35827213/2/?bust=1481468166&amp;width=95&amp;-fpm.jpg</photo>
+                    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/35827213/2/?bust=1481468166&amp;width=500&amp;-x.jpg</photo>
+                    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/35827213/2/?bust=1481468166&amp;width=300&amp;-pn.jpg</photo>
+                    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/35827213/2/?bust=1481468166&amp;width=50&amp;-t.jpg</photo>
+                </photos>
+            </media>
+            <contact>
+                <address1>1521B Ocean Avenue, Bohemia NY</address1>
+                <address2 />
+                <city>Medford</city>
+                <state>NY</state>
+                <zip>11763</zip>
+                <phone>(631) 627-3665</phone>
+                <fax />
+                <email>support@almosthomeli.org</email>
+            </contact>
+        </pet>
+    </pets>
+</petfinder>
