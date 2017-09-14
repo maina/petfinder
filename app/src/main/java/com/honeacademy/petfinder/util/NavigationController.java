@@ -21,6 +21,8 @@ import android.widget.Toast;
 
 import com.honeacademy.petfinder.R;
 import com.honeacademy.petfinder.activity.MainActivity;
+import com.honeacademy.petfinder.fragment.DogsFragment;
+import com.honeacademy.petfinder.fragment.PetDetailsFragment;
 
 import javax.inject.Inject;
 
@@ -40,6 +42,10 @@ public class NavigationController {
 
     public void navigateToPetProfile(Long id) {
         Toast.makeText(mainActivity.getApplicationContext(),"pet",Toast.LENGTH_LONG).show();
+        PetDetailsFragment dogsFragment = PetDetailsFragment.newInstance(id);
+        mainActivity.addFragment(dogsFragment,PetDetailsFragment.class.getName());
+
+
     }
 
 }

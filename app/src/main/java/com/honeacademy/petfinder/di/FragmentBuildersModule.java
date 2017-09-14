@@ -20,6 +20,7 @@ import com.honeacademy.petfinder.fragment.BarnYardsFragment;
 import com.honeacademy.petfinder.fragment.CatsFragment;
 import com.honeacademy.petfinder.fragment.DogsFragment;
 import com.honeacademy.petfinder.fragment.HorsesFragment;
+import com.honeacademy.petfinder.fragment.PetDetailsFragment;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
@@ -37,4 +38,7 @@ public abstract class FragmentBuildersModule {
 
     @ContributesAndroidInjector
     abstract HorsesFragment contributeHorsesFragment();
+
+    @ContributesAndroidInjector
+    abstract PetDetailsFragment contributePetDetailsFragment();
 }

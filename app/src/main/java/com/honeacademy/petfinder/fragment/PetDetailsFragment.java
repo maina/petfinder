@@ -15,14 +15,11 @@ import android.view.ViewGroup;
 import com.honeacademy.petfinder.R;
 import com.honeacademy.petfinder.adapter.PetAdapter;
 import com.honeacademy.petfinder.binding.FragmentDataBindingComponent;
-import com.honeacademy.petfinder.databinding.DogFragmentBinding;
+import com.honeacademy.petfinder.databinding.PetDetailFragmentBinding;
 import com.honeacademy.petfinder.di.Injectable;
-import com.honeacademy.petfinder.model.PetDTO;
 import com.honeacademy.petfinder.util.AutoClearedValue;
 import com.honeacademy.petfinder.util.NavigationController;
 import com.honeacademy.petfinder.viewmodel.PetViewModel;
-
-import java.util.Collections;
 
 import javax.inject.Inject;
 
@@ -30,20 +27,19 @@ import javax.inject.Inject;
  * Created by jmaina on 8/13/17.
  */
 
-public class DogsFragment extends Fragment implements LifecycleRegistryOwner, Injectable, PetAdapter.PetClickCallback {
+public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwner, Injectable {
     /**
      * The fragment argument representing the section number for this
      * fragment.
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
     private final LifecycleRegistry lifecycleRegistry = new LifecycleRegistry(this);
-    private static final String ANIMAL = "animal";
-    private static final String LOCATION = "location";
+    private static final String ANIMAL_ID = "animal_id";
 
     @Inject
     NavigationController navigationController;
 
-    AutoClearedValue<DogFragmentBinding> binding;
+    AutoClearedValue<PetDetailFragmentBinding> binding;
     AutoClearedValue<PetAdapter> adapter;
     android.databinding.DataBindingComponent dataBindingComponent = new FragmentDataBindingComponent(this);
 
@@ -57,11 +53,10 @@ public class DogsFragment extends Fragment implements LifecycleRegistryOwner, In
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static DogsFragment newInstance(String location, String animal) {
-        DogsFragment fragment = new DogsFragment();
+    public static PetDetailsFragment newInstance(Long animalId) {
+        PetDetailsFragment fragment = new PetDetailsFragment();
         Bundle args = new Bundle();
-        args.putString(LOCATION, location);
-        args.putString(ANIMAL, animal);
+        args.putLong(ANIMAL_ID, animalId);
         fragment.setArguments(args);
         return fragment;
     }
@@ -70,9 +65,8 @@ public class DogsFragment extends Fragment implements LifecycleRegistryOwner, In
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        DogFragmentBinding dataBinding = DataBindingUtil
-                .inflate(inflater, R.layout.dog_fragment, container, false);
-        dataBinding.setRetryCallback(() -> petViewModel.retry());
+        PetDetailFragmentBinding dataBinding = DataBindingUtil
+                .inflate(inflater, R.layout.pet_detail_fragment, container, false);
         binding = new AutoClearedValue<>(this, dataBinding);
         return dataBinding.getRoot();
     }
@@ -82,35 +76,17 @@ public class DogsFragment extends Fragment implements LifecycleRegistryOwner, In
         super.onActivityCreated(savedInstanceState);
         petViewModel = ViewModelProviders.of(this, viewModelFactory).get(PetViewModel.class);
         Bundle args = getArguments();
-        if (args != null && args.containsKey(ANIMAL) &&
-                args.containsKey(LOCATION)) {
-            petViewModel.setId(0l, args.getString(ANIMAL),
-                    args.getString(LOCATION));
+        if (args != null && args.containsKey(ANIMAL_ID) ) {
+            petViewModel.setId(args.getLong(ANIMAL_ID),null,null);
         }
-
-        PetAdapter adapter = new PetAdapter(dataBindingComponent,
-                this);
-        this.adapter = new AutoClearedValue<>(this, adapter);
-        // binding.get().petsList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        binding.get().petsList.setAdapter(adapter);
-
-        initContributorList(petViewModel);
-    }
-
-
-    private void initContributorList(PetViewModel viewModel) {
-        viewModel.getPets().observe(this, listResource -> {
-            // we don't need any null checks here for the adapter since LiveData guarantees that
-            // it won't call us if fragment is stopped or not started.
-            if (listResource != null && listResource.data != null) {
-                adapter.get().replace(listResource.data);
-
-            } else {
-                //noinspection ConstantConditions
-                adapter.get().replace(Collections.emptyList());
-            }
+        petViewModel.getPet().observe(this, pet -> {
+            binding.get().setPet(pet);
+            // this is only necessary because espresso cannot read data binding callbacks.
+            binding.get().executePendingBindings();
         });
     }
+
+
 
 
     @Override
@@ -118,8 +94,4 @@ public class DogsFragment extends Fragment implements LifecycleRegistryOwner, In
         return lifecycleRegistry;
     }
 
-    @Override
-    public void onClick(PetDTO pet) {
-        navigationController.navigateToPetProfile(pet.getId());
-    }
 }

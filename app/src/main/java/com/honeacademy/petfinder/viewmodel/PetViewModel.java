@@ -43,13 +43,15 @@ public class PetViewModel extends ViewModel {
 
     private final PetDao petDao;
 
+    private final LiveData<PetDTO> pet;
+
+
     @SuppressWarnings("unchecked")
     @Inject
     public PetViewModel(PetRepository petRepository, PetDao petDao) {
         this.petDao = petDao;
         this.petSearch = new MutableLiveData<>();
 
-        getpets();
         pets = Transformations.switchMap(petSearch, input -> {
             if (input.isEmpty()) {
                 return AbsentLiveData.create();
@@ -57,29 +59,18 @@ public class PetViewModel extends ViewModel {
                 return petRepository.loadPets(input.animal, input.location);
             }
         });
+        pet = Transformations.switchMap(petSearch, input -> {
+            if (input == null) {
+                return AbsentLiveData.create();
+            } else {
+                return petRepository.loadPet(input.id);
+            }
+        });
     }
 
-    int size = 0;
 
-    private int getpets() {
-
-
-        new AsyncTask<Void, Void, Integer>() {
-            @Override
-            protected Integer doInBackground(Void... params) {
-                List<Pet> petss = petDao.loadPetsType("dog");
-                int size = petss.size();
-                return size;
-            }
-
-            @Override
-            protected void onPostExecute(Integer agentsCount) {
-                size = agentsCount;
-
-            }
-        }.execute();
-
-        return size;
+    public LiveData<PetDTO> getPet() {
+        return pet;
     }
 
     public LiveData<Resource<List<PetDTO>>> getPets() {
@@ -87,8 +78,8 @@ public class PetViewModel extends ViewModel {
     }
 
 
-    public void setId(String animal, String location) {
-        PetSearch update = new PetSearch(animal, location);
+    public void setId(Long id, String animal, String location) {
+        PetSearch update = new PetSearch(animal, location, id);
         if (Objects.equals(petSearch.getValue(), update)) {
             return;
         }
@@ -104,12 +95,14 @@ public class PetViewModel extends ViewModel {
 
     @VisibleForTesting
     static class PetSearch {
+        public final Long id;
         public final String animal;
         public final String location;
 
-        PetSearch(String animal, String location) {
+        PetSearch(String animal, String location, Long id) {
             this.animal = animal == null ? null : animal.trim();
             this.location = location == null ? null : location.trim();
+            this.id = id;
         }
 
         boolean isEmpty() {

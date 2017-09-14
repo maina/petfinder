@@ -54,16 +54,14 @@ public class MainActivity extends AppCompatActivity implements LifecycleRegistry
         FragmentTransaction ft = fm.beginTransaction();
         Fragment activeFragment = fm.findFragmentByTag(tag);
 
-        if (activeFragment == null) {  // not added
-            ft.add(R.id.container, fragment, tag);
-            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-
-        } else {  // already added
+        if (activeFragment != null) {  // not added
 
             ft.remove(fragment);
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
-        }
 
+        }
+        ft.add(R.id.container, fragment, tag);
+        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         ft.commit();
     }
 

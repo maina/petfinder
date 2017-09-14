@@ -53,6 +53,9 @@ public abstract class PetDao {
     @Query("SELECT * FROM pets WHERE location = :location AND name = :animalType")
     public abstract LiveData<List<Pet>> getPets(String location, String animalType);
 
+    @Query("SELECT * FROM pets WHERE id = :id")
+    public abstract LiveData<PetDTO> getPetById(Long id);
+
 
     @Query("SELECT * FROM pets "
             + "WHERE location = :location "
@@ -63,7 +66,7 @@ public abstract class PetDao {
     public abstract LiveData<List<PetDTO>> loadPetsByType(String type);
 
     @Query("SELECT * from pets where lower(type) = :type LIMIT 25")
-    public abstract List<Pet> loadPetsType(String type);
+    public abstract List<PetDTO> loadPetsType(String type);
 
 
 

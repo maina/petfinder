@@ -54,7 +54,7 @@ import javax.inject.Singleton;
 public class PetRepository {
     private final PetDao petDao;
     @Inject
-    public  PetsDb petsDb;
+    public PetsDb petsDb;
     private final ImageDao imageDao;
     private final ContactDao contactDao;
     private final PetFinderService petFinderService;
@@ -70,8 +70,13 @@ public class PetRepository {
         this.appExecutors = appExecutors;
     }
 
+    public LiveData<PetDTO> loadPet(Long id) {
+        LiveData<PetDTO> pet = petDao.getPetById(id);
+        return pet;
+    }
+
     public LiveData<Resource<List<PetDTO>>> loadPets(String animal, String location) {
-        return new NetworkBoundResource<List<PetDTO>,Petfinder>(appExecutors) {
+        return new NetworkBoundResource<List<PetDTO>, Petfinder>(appExecutors) {
 
 
             @Override
@@ -105,6 +110,7 @@ public class PetRepository {
                 saveApiResponse(item);
 
             }
+
             @Override
             protected Petfinder processResponse(ApiResponse<Petfinder> response) {
                 Petfinder body = response.body;
@@ -112,66 +118,66 @@ public class PetRepository {
             }
 
 
-
         }.asLiveData();
     }
 
     /**
      * process the api response and save pet,images to the db
+     *
      * @param petfinder
      */
-    public void saveApiResponse(Petfinder petfinder){
-      try {
-          List<PetfinderPetRecord> pets = petfinder.getPets();
-          petsDb.beginTransaction();
-          for (PetfinderPetRecord record : pets) {
-              Pet pet = new Pet();
-              pet.setLocation(record.getContact().getAddress1());
-              pet.setName(record.getName());
-              pet.setType(record.getAnimal());
-              pet.setAge(record.getAge());
-              pet.setBreed(Utils.listToString(record.getBreeds(), ","));
-              pet.setMix(record.getMix());
-              pet.setPetId(record.getShelterPetId());
-              pet.setSex(record.getSex().equalsIgnoreCase("f")?"Female":"Male");
-              pet.setShelterId(record.getShelterId());
-              pet.setSize(record.getSize().equalsIgnoreCase("m")?"Medium":record.getSize().equalsIgnoreCase("s")?"Small":"Large");
-              pet.setStatus(record.getStatus());
-              pet.setDescription(record.getDescription()==null?"":record.getDescription().trim());
-              long id = petDao.insert(pet);
+    public void saveApiResponse(Petfinder petfinder) {
+        try {
+            List<PetfinderPetRecord> pets = petfinder.getPets();
+            petsDb.beginTransaction();
+            for (PetfinderPetRecord record : pets) {
+                Pet pet = new Pet();
+                pet.setLocation(record.getContact().getAddress1());
+                pet.setName(record.getName());
+                pet.setType(record.getAnimal());
+                pet.setAge(record.getAge());
+                pet.setBreed(Utils.listToString(record.getBreeds(), ","));
+                pet.setMix(record.getMix());
+                pet.setPetId(record.getShelterPetId());
+                pet.setSex(record.getSex().equalsIgnoreCase("f") ? "Female" : "Male");
+                pet.setShelterId(record.getShelterId());
+                pet.setSize(record.getSize().equalsIgnoreCase("m") ? "Medium" : record.getSize().equalsIgnoreCase("s") ? "Small" : "Large");
+                pet.setStatus(record.getStatus());
+                pet.setDescription(record.getDescription() == null ? "" : record.getDescription().trim());
+                long id = petDao.insert(pet);
 
-              List<PetPhotoType> photos = record.getMedia().getPhotos() != null ? record.getMedia().getPhotos().getPhotos() : null;
-              if (photos != null) {
-                  List<Image> images = new ArrayList<>();
-                  //save the images in a list to batch insert
-                  for (PetPhotoType photo : photos) {
-                      Image image = new Image();
-                      image.setSize(photo.getSize());
-                      image.setPhotoId(photo.getId());
-                      image.setUrl(photo.getUrl());
-                      image.setPetId(id);
-                      images.add(image);
-                  }
-                  imageDao.insertImages(images);
-              }
-              PetContactType petContactType = record.getContact();
-              Contact contact= new Contact();
-              contact.setAddress1(petContactType.getAddress1()==null?"":petContactType.getAddress1());
-              contact.setAddress2(petContactType.getAddress2()==null?"":petContactType.getAddress2());
-              contact.setCity(petContactType.getCity()==null?"":petContactType.getCity());
-              contact.setEmail(petContactType.getEmail()==null?"":petContactType.getEmail());
-              contact.setFax(petContactType.getFax()==null?"":petContactType.getFax());
-              contact.setState(petContactType.getState()==null?"":petContactType.getState());
-              contact.setZip(petContactType.getZip()==null?"":petContactType.getZip());
-              contact.setPhone(petContactType.getPhone()==null?"":petContactType.getPhone());
-              contact.setPetId(id);
-              contactDao.insert(contact);
+                List<PetPhotoType> photos = record.getMedia().getPhotos() != null ? record.getMedia().getPhotos().getPhotos() : null;
+                if (photos != null) {
+                    List<Image> images = new ArrayList<>();
+                    //save the images in a list to batch insert
+                    for (PetPhotoType photo : photos) {
+                        Image image = new Image();
+                        image.setSize(photo.getSize());
+                        image.setPhotoId(photo.getId());
+                        image.setUrl(photo.getUrl());
+                        image.setPetId(id);
+                        images.add(image);
+                    }
+                    imageDao.insertImages(images);
+                }
+                PetContactType petContactType = record.getContact();
+                Contact contact = new Contact();
+                contact.setAddress1(petContactType.getAddress1() == null ? "" : petContactType.getAddress1());
+                contact.setAddress2(petContactType.getAddress2() == null ? "" : petContactType.getAddress2());
+                contact.setCity(petContactType.getCity() == null ? "" : petContactType.getCity());
+                contact.setEmail(petContactType.getEmail() == null ? "" : petContactType.getEmail());
+                contact.setFax(petContactType.getFax() == null ? "" : petContactType.getFax());
+                contact.setState(petContactType.getState() == null ? "" : petContactType.getState());
+                contact.setZip(petContactType.getZip() == null ? "" : petContactType.getZip());
+                contact.setPhone(petContactType.getPhone() == null ? "" : petContactType.getPhone());
+                contact.setPetId(id);
+                contactDao.insert(contact);
 
 
-          }
-          petsDb.setTransactionSuccessful();
-      }finally {
-          petsDb.endTransaction();
-      }
+            }
+            petsDb.setTransactionSuccessful();
+        } finally {
+            petsDb.endTransaction();
+        }
     }
 }
