@@ -13,7 +13,7 @@ import android.arch.persistence.room.PrimaryKey;
         childColumns = "pet_id_contact"))
 public class Contact {
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name="contact_id")
+    @ColumnInfo(name = "contact_id")
     private long id;
     @ColumnInfo(name = "pet_id_contact")
     private long petId;
@@ -25,6 +25,9 @@ public class Contact {
     private String phone;
     private String fax;
     private String email;
+
+    public Contact() {
+    }
 
     public long getId() {
         return id;

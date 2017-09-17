@@ -15,6 +15,11 @@ public class PetDTO extends Pet {
     @Embedded
     private Contact contact;
 
+
+    public PetDTO(){
+
+    }
+
     //    parentColumn refers to Embedded Contact table's id column,
 //    entityColumn refers to Pet table's userId (User - Pet relation) column,
 //    entity refers to table(Pet) which has relation with User table.
@@ -36,5 +41,7 @@ public class PetDTO extends Pet {
     public void setContact(Contact contact) {
         this.contact = contact;
     }
+
+
 }
 

@@ -74,6 +74,10 @@ public class PetRepository {
         LiveData<PetDTO> pet = petDao.getPetById(id);
         return pet;
     }
+    public LiveData<List<Image>> loadPetImages(Long id) {
+        LiveData<List<Image>> images = imageDao.getImagesByPetId(id);
+        return images;
+    }
 
     public LiveData<Resource<List<PetDTO>>> loadPets(String animal, String location) {
         return new NetworkBoundResource<List<PetDTO>, Petfinder>(appExecutors) {

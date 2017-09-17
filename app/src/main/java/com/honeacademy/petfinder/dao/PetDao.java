@@ -53,7 +53,7 @@ public abstract class PetDao {
     @Query("SELECT * FROM pets WHERE location = :location AND name = :animalType")
     public abstract LiveData<List<Pet>> getPets(String location, String animalType);
 
-    @Query("SELECT * FROM pets WHERE id = :id")
+    @Query("SELECT p.*,i.* FROM pets p left join images i on i.pet_id=p.id WHERE p.id = :id and i.size !='t' ")
     public abstract LiveData<PetDTO> getPetById(Long id);
 
 

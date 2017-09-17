@@ -21,6 +21,8 @@ public class Image {
     @ColumnInfo(name="photo_id")
     private String photoId;
 
+    public Image(){}
+
     public long getId() {
         return id;
     }

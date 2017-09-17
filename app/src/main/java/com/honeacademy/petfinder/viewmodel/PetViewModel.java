@@ -24,6 +24,7 @@ import android.os.AsyncTask;
 import android.support.annotation.VisibleForTesting;
 
 import com.honeacademy.petfinder.dao.PetDao;
+import com.honeacademy.petfinder.model.Image;
 import com.honeacademy.petfinder.model.Pet;
 import com.honeacademy.petfinder.model.PetDTO;
 import com.honeacademy.petfinder.repository.PetRepository;
@@ -44,6 +45,7 @@ public class PetViewModel extends ViewModel {
     private final PetDao petDao;
 
     private final LiveData<PetDTO> pet;
+    private final LiveData<List<Image>> images;
 
 
     @SuppressWarnings("unchecked")
@@ -66,6 +68,13 @@ public class PetViewModel extends ViewModel {
                 return petRepository.loadPet(input.id);
             }
         });
+        images = Transformations.switchMap(petSearch, input -> {
+            if (input == null) {
+                return AbsentLiveData.create();
+            } else {
+                return petRepository.loadPetImages(input.id);
+            }
+        });
     }
 
 
@@ -77,6 +86,9 @@ public class PetViewModel extends ViewModel {
         return pets;
     }
 
+    public LiveData<List<Image>> getImages() {
+        return images;
+    }
 
     public void setId(Long id, String animal, String location) {
         PetSearch update = new PetSearch(animal, location, id);

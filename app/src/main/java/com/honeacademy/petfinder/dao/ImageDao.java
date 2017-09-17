@@ -45,10 +45,10 @@ public abstract class ImageDao {
     //Notice that the load method returns a LiveData<User>. Room knows when the database is modified and it will automatically notify
     // all active observers when the data changes.
     // Because it is using LiveData, this will be efficient because it will update the data only if there is at least one active observer.
-    @Query("SELECT * FROM images WHERE pet_id = :petId")
+    @Query("SELECT * FROM images WHERE pet_id = :petId and (size !='t' and size !='pnt' and size !='fpm')")
     public abstract LiveData<List<Image>> getImagesByPetId(long petId);
 
-    @Query("SELECT * FROM images WHERE pet_id = :petId")
+    @Query("SELECT * FROM images WHERE pet_id = :petId ")
     public abstract List<Image> getPetImages(long petId);
 
 

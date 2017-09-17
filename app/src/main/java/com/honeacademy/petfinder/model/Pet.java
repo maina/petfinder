@@ -26,6 +26,9 @@ public class Pet {
     private String status;
     private String description;
 
+    public Pet() {
+
+    }
 
     public long getId() {
         return id;

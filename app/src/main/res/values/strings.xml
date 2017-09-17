@@ -3,8 +3,10 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="pet_sponsor_me">Sponsor Me</string>
-    <string name="pet_ask_about">Ask About Georgia</string>
+    <string name="pet_ask_about">Ask About %s</string>
     <string name="about">About</string>
+    <string name="please_read"><b>PLEASE READ:</b> Information regarding adoptable pets is provided by the adopting organization and is neither checked for accuracy or completeness nor guaranteed to be accurate or complete. The health status and behavior of any pet found, adopted through, or listed on the Petfinder.com Website are the sole responsibility of the adoption organization listing the same and/or the adopting party, and by using this service, the adopting party releases Petfinder.com and Nestle Purina PetCare, from any and all liability arising out of or in any way connected with the adoption of a pet listed on the Petfinder.com Website. See our <a href="https://www.petfinder.com/terms-of-service">Terms of Service </a>for more information.</string>
     <string name="pet_about">ABOUT %s</string>
+    <string name="share">share</string>
 
 </resources>

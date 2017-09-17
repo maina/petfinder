@@ -6,13 +6,16 @@ import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.honeacademy.petfinder.R;
+import com.honeacademy.petfinder.adapter.ImageSlideAdapter;
 import com.honeacademy.petfinder.adapter.PetAdapter;
 import com.honeacademy.petfinder.binding.FragmentDataBindingComponent;
 import com.honeacademy.petfinder.databinding.PetDetailFragmentBinding;
@@ -20,6 +23,11 @@ import com.honeacademy.petfinder.di.Injectable;
 import com.honeacademy.petfinder.util.AutoClearedValue;
 import com.honeacademy.petfinder.util.NavigationController;
 import com.honeacademy.petfinder.viewmodel.PetViewModel;
+import com.viewpagerindicator.CirclePageIndicator;
+
+import java.util.Collections;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import javax.inject.Inject;
 
@@ -40,7 +48,7 @@ public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwn
     NavigationController navigationController;
 
     AutoClearedValue<PetDetailFragmentBinding> binding;
-    AutoClearedValue<PetAdapter> adapter;
+    AutoClearedValue<ImageSlideAdapter> adapter;
     android.databinding.DataBindingComponent dataBindingComponent = new FragmentDataBindingComponent(this);
 
 
@@ -76,17 +84,37 @@ public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwn
         super.onActivityCreated(savedInstanceState);
         petViewModel = ViewModelProviders.of(this, viewModelFactory).get(PetViewModel.class);
         Bundle args = getArguments();
-        if (args != null && args.containsKey(ANIMAL_ID) ) {
-            petViewModel.setId(args.getLong(ANIMAL_ID),null,null);
+        if (args != null && args.containsKey(ANIMAL_ID)) {
+            petViewModel.setId(args.getLong(ANIMAL_ID), null, null);
         }
         petViewModel.getPet().observe(this, pet -> {
             binding.get().setPet(pet);
             // this is only necessary because espresso cannot read data binding callbacks.
+
             binding.get().executePendingBindings();
         });
+
+        petViewModel.getImages().observe(this, images -> {
+            // this is only necessary because espresso cannot read data binding callbacks.
+            if (!images.isEmpty()) {
+                adapter.get().setImages(images);
+                adapter.get().notifyDataSetChanged();
+                NUM_PAGES = images.size();
+
+            } else {
+                //noinspection ConstantConditions
+                adapter.get().setImages(Collections.emptyList());
+            }
+            binding.get().executePendingBindings();
+        });
+
+        ImageSlideAdapter adapter = new ImageSlideAdapter(dataBindingComponent, getActivity());
+
+        this.adapter = new AutoClearedValue<>(this, adapter);
+        // binding.get().petsList.setLayoutManager(new LinearLayoutManager(getActivity()));
+        binding.get().pager.setAdapter(adapter);
+        initPager();
     }
-
-
 
 
     @Override
@@ -94,4 +122,60 @@ public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwn
         return lifecycleRegistry;
     }
 
+    int currentPage = 0;
+    int NUM_PAGES = 0;
+
+    private void initPager() {
+
+        CirclePageIndicator indicator = binding.get().indicator;
+
+        indicator.setViewPager(binding.get().pager);
+
+        final float density = getResources().getDisplayMetrics().density;
+
+//Set circle indicator radius
+        indicator.setRadius(5 * density);
+
+
+        // Auto start of viewpager
+        final Handler handler = new Handler();
+        final Runnable Update = new Runnable() {
+            public void run() {
+                if (currentPage == NUM_PAGES) {
+                    currentPage = 0;
+                }
+                if(binding.get()!=null) {
+                    binding.get().pager.setCurrentItem(currentPage++, true);
+                }
+            }
+        };
+        Timer swipeTimer = new Timer();
+        swipeTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                handler.post(Update);
+            }
+        }, 3000, 3000);
+
+        // Pager listener over indicator
+        indicator.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+
+            @Override
+            public void onPageSelected(int position) {
+                currentPage = position;
+
+            }
+
+            @Override
+            public void onPageScrolled(int pos, float arg1, int arg2) {
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int pos) {
+
+            }
+        });
+
+    }
 }
