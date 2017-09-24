@@ -145,7 +145,7 @@ public class PetRepository {
                 pet.setPetId(record.getShelterPetId());
                 pet.setSex(record.getSex().equalsIgnoreCase("f") ? "Female" : "Male");
                 pet.setShelterId(record.getShelterId());
-                pet.setSize(record.getSize().equalsIgnoreCase("m") ? "Medium" : record.getSize().equalsIgnoreCase("s") ? "Small" : "Large");
+                pet.setSize(record.getSize().equalsIgnoreCase("m") ||record.getSize().equalsIgnoreCase("pnt") ? "Medium" : record.getSize().equalsIgnoreCase("s") ? "Small" : "Large");
                 pet.setStatus(record.getStatus());
                 pet.setDescription(record.getDescription() == null ? "" : record.getDescription().trim());
                 long id = petDao.insert(pet);

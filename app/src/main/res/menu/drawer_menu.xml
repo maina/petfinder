@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/icons8_dog_48"
+            android:title="Dogs" />
+        <item
+            android:id="@+id/nav_cats"
+            android:icon="@drawable/icons8_cat_104"
+            android:title="Cats" />
+        <item
+            android:id="@+id/nav_horses"
+            android:icon="@drawable/icons8_horse_96"
+            android:title="Horses" />
+        <item
+            android:id="@+id/nav_birds"
+            android:icon="@drawable/icons8_bird_96"
+            android:title="Birds" />
+        <item
+            android:id="@+id/nav_barnyards"
+            android:icon="@drawable/icons8_rabbit_96"
+            android:title="Barnyards" />
+        <item
+            android:id="@+id/nav_reptiles"
+            android:icon="@drawable/icons8_dinosaur_96"
+            android:title="Reptiles" />
+        <item
+            android:id="@+id/nav_smallfurry"
+            android:icon="@drawable/icons8_bird_96"
+            android:title="Small &amp; Furry" />
+    </group>
+</menu>
