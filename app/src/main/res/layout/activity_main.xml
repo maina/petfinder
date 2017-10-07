@@ -20,5 +20,13 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/drawer_menu" />
+    <!-- Filter drawer -->
+    <fragment
+        android:id="@+id/filter_drawer"
+        android:name="com.honeacademy.petfinder.fragment.FilterDrawerFragment"
+        android:layout_width="@dimen/drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        tools:layout="@layout/schedule_filter_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

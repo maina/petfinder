@@ -18,6 +18,17 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Session.Tag" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.H5</item>
+        <item name="android:background">@drawable/tag_session_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:minWidth">@dimen/a11y_min_touch_target_dimen</item>
+    </style>
 
+    <style name="TextAppearance.H5" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
 
 </resources>

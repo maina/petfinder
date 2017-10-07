@@ -9,4 +9,8 @@
     <color name="colorPetTitle">#7332D6</color>
     <color name="colorDottedLine">#ccb5f0</color>
     <color name="colorPetAge">#999999</color>
+    <color name="sunflower_yellow">#ffd500</color>
+    <color name="navdrawer_background">#ffffffff</color>
+    <color name="lighter_grey">#f6f6f6</color>
+
 </resources>

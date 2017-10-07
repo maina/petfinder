@@ -4,6 +4,7 @@ import android.arch.lifecycle.LifecycleRegistry;
 import android.arch.lifecycle.LifecycleRegistryOwner;
 import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
@@ -35,7 +36,7 @@ import javax.inject.Inject;
  * Created by jmaina on 8/13/17.
  */
 
-public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwner, Injectable {
+public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwner, Injectable,View.OnClickListener {
     /**
      * The fragment argument representing the section number for this
      * fragment.
@@ -108,6 +109,8 @@ public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwn
             binding.get().executePendingBindings();
         });
 
+        binding.get().petShare.setOnClickListener(this);
+
         ImageSlideAdapter adapter = new ImageSlideAdapter(dataBindingComponent, getActivity());
 
         this.adapter = new AutoClearedValue<>(this, adapter);
@@ -177,5 +180,17 @@ public class PetDetailsFragment extends Fragment implements LifecycleRegistryOwn
             }
         });
 
+    }
+
+    @Override
+    public void onClick(View view) {
+        if(view.getId()==binding.get().petShare.getId()) {
+            Intent intent = new Intent(android.content.Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            String shareBodyText = "Your shearing message goes here";
+            intent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject/Title");
+            intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
+            startActivity(Intent.createChooser(intent, "Choose sharing method"));
+        }
     }
 }
