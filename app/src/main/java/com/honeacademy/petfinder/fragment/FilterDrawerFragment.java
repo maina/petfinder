@@ -4,12 +4,14 @@ import android.arch.lifecycle.LifecycleRegistry;
 import android.arch.lifecycle.LifecycleRegistryOwner;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.honeacademy.petfinder.R;
+import com.honeacademy.petfinder.adapter.SearchFiltersAdapter;
 import com.honeacademy.petfinder.di.Injectable;
 
 /**
@@ -24,6 +26,7 @@ public class FilterDrawerFragment extends Fragment implements LifecycleRegistryO
     private static final String ARG_SECTION_NUMBER = "section_number";
 
     private final LifecycleRegistry lifecycleRegistry = new LifecycleRegistry(this);
+    private RecyclerView mRecyclerView;
 
     /**
      * Returns a new instance of this fragment for the given section
@@ -41,6 +44,12 @@ public class FilterDrawerFragment extends Fragment implements LifecycleRegistryO
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.schedule_filter_drawer, container, false);
+        mRecyclerView = (RecyclerView) rootView.findViewById(R.id.filters);
+        mRecyclerView.setHasFixedSize(true);
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(rootView.getContext(),DividerItemDecoration.VERTICAL));
+        SearchFiltersAdapter mAdapter = new SearchFiltersAdapter(null);
+        mRecyclerView.setAdapter(mAdapter);
+
         return rootView;
     }
 
